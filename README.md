@@ -35,6 +35,44 @@ Here I provide necessary instructions and links for your linux mint os  after th
     ii) sudo apt update
     
 3) Install kdeconnect ( for file transfer between pc and phone )
+          
+      go to linux terminal 
+      steps to be followed 
+      i) sudo apt install kdeconnect  
+       or directly install from software manager 
+       or install using the link  https://community.linuxmint.com/software/view/kdeconnect
+       
+      ii) once you installed  kdeconnect in laptop or pc then install kdeconnect in android phone 
+               just simple go to playstore and search for kdeconnect and install it 
+      iii) connect your phone with laptop using kde connect steps to be followed 
+               i) open kde connect simultaneously  in phone and pc 
+               ii) make sure both connected  to same wifi 
+               iii) once connected to same wifi network  your phone then displays your pc name just simply click and connect that's it .
+             
+ 4) install libre office ( an free alternative to ms office )
+ 
+     i) simply install it in software manager 
+     ii) by using linux terminal 
+              sudo add-apt-repository ppa:libreoffice/ppa
+              sudo apt update
+              sudo apt upgrade
+              
+     for  more info :--   https://libre-software.net/how-to-install-libreoffice-on-ubuntu-linux-mint/ 
+     
+     iii) download directly using the link :----   https://community.linuxmint.com/software/view/libreoffice
+     
+     
+  5) brightness controller ( some laptops or pc do not able to adjust the brightness  in mint os so here is a solution )
+  
+      open terminal and run the following code 
+      
+      i) sudo add-apt-repository ppa:apandada1/brightness-controller
+      ii) sudo apt-get update
+      iii) sudo apt-get install brightness-controller
+
+
+--------------------------------------------Thank You ----------------------------------------------------------------------------------------
+-----------------------------There are many tips , tricks , softwares I will update shortly --------------------------------------------------
 
 
 
