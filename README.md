@@ -135,7 +135,7 @@ Here I provide necessary instructions and links for your linux mint os  after th
 
 
 ---------------------------------------------------------------------Thank You ----------------------------------------------------------------------------------------
-------------------------------------------------------There are many tips , tricks , softwares I will update shortly --------------------------------------------------
+-----------------------------There are many tips , tricks , softwares I will update shortly --------------------------------------------------
 
 
 
