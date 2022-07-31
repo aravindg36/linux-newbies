@@ -44,6 +44,8 @@ Here I provide necessary instructions and links for your linux mint os  after th
           
       go to linux terminal 
       steps to be followed 
+      
+      
       i) sudo apt install kdeconnect  
        or directly install from software manager 
        or install using the link  https://community.linuxmint.com/software/view/kdeconnect
