@@ -71,7 +71,7 @@ Here I provide necessary instructions and links for your linux mint os  after th
       ii) sudo apt-get update
       iii) sudo apt-get install brightness-controller
     
- 6) sound volume issue 
+ 6) sound volume issue :---------------------------------------------------
  
     one of the main issue I have faced after installing mint is that ,whenever I played a video  or audio  there will be no sound and hence forth after day and night of research and online videos I didn't found a solution . But somehow I found an indirect solution  and this solution works like  a charm . 
     Instructions to be followed :-------
