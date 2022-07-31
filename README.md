@@ -77,12 +77,18 @@ Here I provide necessary instructions and links for your linux mint os  after th
     Instructions to be followed :-------
     
     i) go to search tab and search for keyboard shortcuts 
+    
     ii)keyboard shortcuts --> application shortcut then 
+    
     iii)Then you will  see a customizable keyboard shortcuts in that click ---> add
+    
     iv)A command tab will appear in that just copy paste a  code given below 
     (**********an important point to be noted is that before entering the code just go to terminal and type alsamixer and click enter, it shows the graphical                          representation of the system sounds  in that  see whether headphone  is set to 100 if it is not set just follow the below code ***************)
+    
     v) amixer sset Headphone playback 100%+  
+    
     vi) and set a shortcut key for that (eg : f4,f5 ) that's it .
+    
     vii) once you find the video or audio volume is muted, just click the shortcut key you have customized  and that's it .
     
   7) customizing shortcuts for easy volume control  :-------
