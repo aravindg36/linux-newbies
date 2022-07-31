@@ -1,5 +1,6 @@
 # linux-newbies
 linux guide for newbies 
+I recommend to read this in a pc or laptop for better understanding and for a better alignment of texts.
 I prefer linux mint os over others since :---
 
 i) It is user friendly
@@ -24,7 +25,7 @@ Here I provide necessary instructions and links for your linux mint os  after th
    
     go to search tab and find firewall applications ,once you found 
      enable this :---
-     i) incoming  : deny
+     i) incoming   : deny
      ii) outgoing  : allow 
 
 2) flameshot ( Highly customizable and powerful screenshot tool )
@@ -69,10 +70,53 @@ Here I provide necessary instructions and links for your linux mint os  after th
       i) sudo add-apt-repository ppa:apandada1/brightness-controller
       ii) sudo apt-get update
       iii) sudo apt-get install brightness-controller
+    
+ 6) sound volume issue 
+ 
+    one of the main issue I have faced after installing mint is that ,whenever I played a video  or audio  there will be no sound and hence forth after day and night of research and online videos I didn't found a solution . But somehow I found an indirect solution  and this solution works like  a charm . 
+    Instructions to be followed :-------
+    
+    i) go to search tab and search for keyboard shortcuts 
+    ii)keyboard shortcuts --> application shortcut then 
+    iii)Then you will  see a customizable keyboard shortcuts in that click ---> add
+    iv)A command tab will appear in that just copy paste a  code given below 
+    (**********an important point to be noted is that before entering the code just go to terminal and type alsamixer and click enter, it shows the graphical                          representation of the system sounds  in that  see whether headphone  is set to 100 if it is not set just follow the below code ***************)
+    v) amixer sset Headphone playback 100%+  
+    vi) and set a shortcut key for that (eg : f4,f5 ) that's it .
+    vii) once you find the video or audio volume is muted, just click the shortcut key you have customized  and that's it .
+    
+  7) customizing shortcuts for easy volume control  :-------
+  
+    if you wanna control the volume (high,down,mute) in just a click then this shortcut code is for you 
+    
+    i) go to search tab and search for keyboard shortcuts 
+    ii)keyboard shortcuts --> application shortcut then 
+    iii)Then you will  see a customizable keyboard shortcuts in that click ---> add
+    iv)A command tab will appear in that just copy paste a  code given below  and press any key to access the shortcut (f1,f2,f3) 
+         1) to increase the volume :-------
+               amixer sset Master playback 10%+  
+               (****here 10%+ is my choice it can also be 10,20,31, any number but < 100 *****)
+                and customize a shortcut key of your choice ,  say f1  
+         2) to decrease the volume  :--------
+                amixer sset Master playback 10%-
+                customize a shortcut key of your choice ,  say f2 
+         3) to mute all volumes     :---------
+                 amixer sset Master playback 100%-
+                  customize a shortcut key of your choice ,  say f3 
+                  
+                  and that's it so now 1) if you wanna increase the volume --------> press f1
+                                       2)  if you wanna decrease the  volume ---------> press f2
+                                       3) if you wanna mute all volumes --------> press f3
+                  
+                  
+               
+    
+                                                  :-)        :-)       :-)        
+    
 
 
---------------------------------------------Thank You ----------------------------------------------------------------------------------------
------------------------------There are many tips , tricks , softwares I will update shortly --------------------------------------------------
+---------------------------------------------------------------------Thank You ----------------------------------------------------------------------------------------
+------------------------------------------------------There are many tips , tricks , softwares I will update shortly --------------------------------------------------
 
 
 
